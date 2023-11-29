@@ -30,6 +30,10 @@
       {
         "caption": "Classic Leia.",
         "url": "https://www.girlgeekupnorth.co.uk/wp-content/uploads/2016/12/Princess-Leia-1.jpg"
+      },
+      {
+        "caption": "Classic Leia #2.",
+        "url": "https://www.girlgeekupnorth.co.uk/wp-content/uploads/2016/12/Princess-Leia-1.jpg"
       }
     ]
   },
@@ -48,8 +52,7 @@
         "caption": "Rey, conqueror pose.",
         "url": "https://cdn.mos.cms.futurecdn.net/7977b2Vb5qE4s8gSZk7edT.jpg"
       }
-    ],
-    "_locals": {}
+    ]
   },
   "finn": {
     "name": "Finn",

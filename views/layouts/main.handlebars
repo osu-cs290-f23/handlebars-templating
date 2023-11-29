@@ -2,15 +2,19 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Photos of People</title>
+    <title>Photos of People - {{name}}</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="/photoCardTemplate.js" charset="utf-8" defer></script>
+    <script src="/index.js" charset="utf-8" defer></script>
   </head>
   <body>
 
     <header>
-      <h1 class="site-title">Photos of People</h1>
+      <h1 class="site-title">Photos of People (from layout)</h1>
     </header>
 
     <nav class="navbar">
@@ -21,10 +25,7 @@
       </ul>
     </nav>
 
-    <main class="error-page">
-      <h2>404</h2>
-      <h3>Page not found.</h3>
-    </main>
+    {{{body}}}
 
   </body>
 </html>
